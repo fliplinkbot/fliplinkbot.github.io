@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap');
+
+html, body{
+  font-family: 'Nunito', sans-serif;
+  background-color: #171717;
+  text-align: center;
+}
+#login{
+  margin-right: 10px;
+}
+#Logo{
+  color: #fff;
+}
+nav{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+svg{
+  margin: 10px;
+  fill: #f97316;
+}
+.links {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-content: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  font-family: 'Nunito', sans-serif;
+}
+
+.scroll-container {
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  height: 60px;
+  font-size: 40px;
+  /* border: 1px solid red; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#GetStarted{
+  background-color: #f97316;
+  border: 1px solid #d16113;
+}
+#LoginButton{
+  border: 1px solid #4d4d4d;
+}
+.text-inside .item {
+  height: 50px;
+  color: #f97316;
+}
+
+.text-inside {
+  margin-top: 0;
+  transition: 50ms;
+  animation: 10s infinite  test;
+}
+
+@keyframes test {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -52px;
+  }  
+  50% {
+    margin-top: -100px;
+  }
+  75%{
+    margin-top: -150px;
+  }
+  /* Help to slow the Steam-Roblox transition would be great. */
+  86.5% {
+    margin-top: -200px;
+  }
+  100% {
+    margin-top: -250px;
+  }
+}
